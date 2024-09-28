@@ -1,6 +1,6 @@
-import os #importamos módulo
+import os #importamos módulo 'os' para interactuar con el sistema operativo
 
-#definimos el nombre del archivo
+#definimos el nombre del archivo que se quiere eliminar
 nombre_archivo= 'archivo.txt'
 
 #comprobar si el archivo existe en la ruta especificada
