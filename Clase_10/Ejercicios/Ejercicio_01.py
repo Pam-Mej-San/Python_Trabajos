@@ -13,7 +13,6 @@ class Estudiante:
             return 0 #Aquí se le asigna cero de plano para que se tenga información, pero necesitamos una 
                     #función o algo para que la llame otra vez y la pueda leer en la información que le demos
                     #más adelante (info**)
-        
         suma = sum(self.notas)  # Suma todas las notas de una sola vez
         return suma / len(self.notas)  # Calcula y retorna el promedio a lo que pusimos anteriormente
 
